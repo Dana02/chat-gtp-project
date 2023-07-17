@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My suite" parallel="tests" thread-count="4">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+    </listeners>
+    <test name="Simple test">
+        <classes>
+            <class name="tests.ChatLinkTest"/>
+            <class name="tests.SettingsNavigationTest"/>
+            <class name="tests.WeatherSearchTest"/>
+        </classes>
+    </test>
+</suite>
