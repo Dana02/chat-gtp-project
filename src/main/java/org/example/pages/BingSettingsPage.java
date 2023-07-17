@@ -10,8 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BingSettingsPage {
     private WebDriver driver;
     private WebDriverWait wait;
-
-    // Hypothetical locator for settings page
     private By settingsPageLocator = By.xpath("//h2[text()='Settings']");
 
     public BingSettingsPage() {

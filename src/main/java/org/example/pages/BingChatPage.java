@@ -13,8 +13,6 @@ public class BingChatPage {
     private WebDriver driver;
     private WebDriverWait wait;
     private Logger logger = LogManager.getLogger(BingChatPage.class);
-
-    // Hypothetical locator for chat popup
     private By chatPopupLocator = By.xpath("//div[@id='sydneyPayWall_Content']");
 
     public BingChatPage() {

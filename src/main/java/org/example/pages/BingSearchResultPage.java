@@ -10,8 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BingSearchResultPage {
     private WebDriver driver;
     private WebDriverWait wait;
-
-    // Hypothetical locator for weather information on the search result page
     private By weatherInfoLocator = By.xpath("//div[@id='wtr_cardContainer']");
 
     public BingSearchResultPage() {
